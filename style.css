@@ -1,0 +1,50 @@
+.title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 6em; 
+    color: black;
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    
+}
+  
+.whatisfastfahion {
+    background-image: url('https://cdn.glitch.global/26f56770-f4b4-43c0-9e1f-54e30318718d/386897470_849506556879969_6244112045010056360_n.jpg?v=1710207428990');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #c8c9cb;
+}
+.floating-image {
+  position: absolute;
+  
+}
+
+.floating-image img {
+  width: 300px; 
+  height: auto;
+  cursor: pointer;
+}
+
+.image-description {
+  font-family: 'Pixelify Sans', sans-serif;
+  color: black;
+  background-color: #E9E9E9;
+  border: 3px solid #878787; 
+  padding: 30px; 
+  position: absolute; 
+  width: 200px; 
+  display: none; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px; 
+}
+
+
+  
